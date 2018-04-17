@@ -6,14 +6,22 @@
   "directories": {
     "test": "test"
   },
+  "watch": {
+    "dev": {
+      "patterns": ["src", "test"],
+      "extensions": "js"
+    }
+  },
   "scripts": {
     "dev": "webpack --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "watch": "npm-watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "npm-watch": "^0.3.0",
     "webpack": "^4.5.0",
     "webpack-cli": "^2.0.14"
   },

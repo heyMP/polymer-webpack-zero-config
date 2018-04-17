@@ -1,0 +1,6 @@
+{
+  "name": "polymer-webpack-zero-config",
+  "short_name": "polymer-webpack-zero-config",
+  "start_url": "/",
+  "display": "standalone"
+}

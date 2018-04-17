@@ -1,3 +1,5 @@
+var randomWords = require('random-words');
+
 /**
  * @customElement
  * @polymer
@@ -8,7 +10,7 @@ class PolymerWebpackZeroConfigApp extends Polymer.Element {
     return {
       prop1: {
         type: String,
-        value: 'polymer-webpack-zero-config-app'
+        value: randomWords()
       }
     };
   }
